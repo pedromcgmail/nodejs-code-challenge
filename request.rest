@@ -1,0 +1,23 @@
+### get Hello
+GET http://localhost:3000/
+
+### get all products
+GET http://localhost:3000/products
+
+### login and authenticate
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "kminchelle",
+    "password": "0lelplR"
+}
+
+### add product to cart
+POST http://localhost:3000/cart
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjoyMzIzLCJpYXQiOjE3MDg5ODE4MDl9.7UzlubkjsWmUeWOb0S1WVwN_juYeRy-jZ2tUjKcAbH4
+Content-Type: application/json
+
+{ 
+    "productId": 12345
+}
