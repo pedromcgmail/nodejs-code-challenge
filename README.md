@@ -1,3 +1,7 @@
+# REST Clien vscode extensiom
+If you wan to execute the endpoint call from with in vscode, you can open the request.rest file and choose the endpoint you want to call.
+
+
 # JSON Server starter
 
 Thanks for joining us today and many thanks for your time.
