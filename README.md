@@ -1,4 +1,4 @@
-# REST Clien vscode extensiom
+# REST Client vscode extensiom
 If you wan to execute the endpoint call from with in vscode, you can open the request.rest file and choose the endpoint you want to call.
 
 
